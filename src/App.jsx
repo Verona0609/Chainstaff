@@ -1,12 +1,13 @@
-import Header from './components/Heder/Header/Header';
-import Hero from './components/Heder/Hero/Hero';
+import { Route, Routes } from 'react-router-dom';
+import CompanyPage from './pages/CompanyPage/CompanyPage';
+import CandidatePage from './pages/CandidatePage/CandidatePage';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-    </div>
+    <Routes>
+      <Route path="/" element={<CompanyPage />} />
+      <Route path="/candidates" element={<CandidatePage />} />
+    </Routes>
   );
 };
 
