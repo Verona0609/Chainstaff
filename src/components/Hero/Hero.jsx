@@ -1,5 +1,4 @@
 import css from './Hero.module.css';
-import man from '../../../assets/img/man.png';
 
 const Hero = () => {
   return (

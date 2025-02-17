@@ -1,5 +1,5 @@
 import css from './About.module.css';
-import man from '../../../assets/img/man.png';
+import man from '../../assets/img/man.png';
 const About = () => {
   return (
     <section className={css.background}>

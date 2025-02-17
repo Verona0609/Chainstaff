@@ -1,12 +1,12 @@
 .background {
-  background-color: #000036;
+  /*  background-color: #000036; */
   height: 800px;
   width: 100%;
   display: flex;
   /*  justify-content: center; */
 
   align-items: center;
-  color: #ffff;
+  color: #0f0f0f;
   font-size: 40px;
   font-family: var(--third-family);
 }
