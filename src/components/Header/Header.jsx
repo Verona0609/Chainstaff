@@ -5,8 +5,6 @@ import logo from '../../assets/img/Logo.png';
 const Header = () => {
   return (
     <header className={css.box}>
-      {/* <Icon className={css.icon} id="icon-Logo" size={30} /> */}
-
       <Link>
         <img className={css.logo} src={logo} alt="website logo" />
       </Link>
