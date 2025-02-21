@@ -6,7 +6,8 @@ const Hero = () => {
       <section className={css.hero}>
         <div className={css.content}>
           <h1>
-            Leverage professional networks to find and hire the best talent
+            Supecharge your <span>hiring strategy</span> through personal
+            networks
           </h1>
           <button className={css.btn}>POST JOB AD</button>
         </div>

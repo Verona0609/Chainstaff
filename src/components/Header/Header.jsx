@@ -16,23 +16,25 @@ const Header = () => {
       <ul className={css.navbox}>
         <li className={css.nav}>
           <Link to="/">
-            <span>Company</span>{' '}
+            <span>I'm a Company</span>{' '}
           </Link>
         </li>
         <li className={css.nav}>
           <Link to="/chainstafers">
-            <span>Chainstafer</span>
+            <span> Chainstafer</span>
           </Link>
         </li>
         <li className={css.nav}>
           <Link to="/candidates">Candidate</Link>
         </li>
-        {/* <li className={css.nav}>
-          <Link to="/jobs" className={css.nav}>
-            Jobs
+        <li className={css.nav}>
+          <Link to="/aboutus" className={css.nav}>
+            About us
           </Link>
-        </li> */}
+        </li>
       </ul>
+
+      <button className={css.btn}>Get started</button>
     </header>
   );
 };

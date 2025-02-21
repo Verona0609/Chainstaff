@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Montserrat';
   src: url('./assets/fonts/Montserrat-SemiBold.woff') format('woff');
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -30,6 +30,27 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 /* Roboto */
 @font-face {
   font-family: 'Roboto';
@@ -38,39 +59,22 @@
   font-style: normal;
   font-display: swap;
 }
-:root {
-  --serenity: #292929;
-  --background: #fffcf8;
-  --silvershade: #f5f5f5;
-  --platinum: #d4d4d4;
-  --azurewave: #c0e5f3; /* #60a0ca */
-  --harmony: #58dad7 to #6769bc;
-  --blush: #f21e1e;
-  --rosette: #ffebeb;
-  --meadow: #dcffde;
-  --minted: #a2d6a5;
-  --hover: #0a19e7;
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-  --third-family: 'Poppins', sans-serif;
-  --font3: 'Montserrat', sans-serif;
-  --font4: 'Poppins', sans-serif;
-  --font5: 'Inter', sans-serif;
-  --font-weight-light: 300;
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
-  --font-weight-semi-bold: 600;
+  --font-family: 'Poppins', sans-serif;
+  --second-family: 'Roboto', sans-serif;
+  --third-family: 'Montserrat', sans-serif;
+  --font3: 'Newsreader', sans-serif;
 }
-
 body {
-  /*  background: #c0e5f3; */
-  /*  background: #e1f9fd; */
-  /*   background-color: rgb(239, 247, 255); */
-  /* background-color: #fff; */
   background: linear-gradient(180deg, #fff 0%, #83a5c6 100%);
-
   margin: 0;
 }
 html {
@@ -108,41 +112,39 @@ img {
   margin: 0;
 }
 
-button {
-  background: linear-gradient(90deg, #58dad7, #6769bc);
-  /* background: linear-gradient(135deg, #58dad7 0%, #6769bc 100%); */
-
+/* button {
+  background: linear-gradient(90deg, #58dad7, #6769bc); */
+/* background: linear-gradient(135deg, #58dad7 0%, #6769bc 100%); */
+/*
   width: 200px;
   height: 60px;
   border: none;
   border-radius: 40px;
   color: #fff;
   cursor: pointer;
-}
+}  */
 
 button:hover {
   transform: scale(1.1);
 }
 
 .container {
-  padding: 0 16px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 375px) {
   .container {
-    /* max-width: 375px; */
+    padding: 0 20px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    /*  min-width: 768px; */
-    padding: 0 32px;
+    padding: 0 64px;
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1280px) {
   .container {
-    /* max-width: 1440px; */
+    padding: 0 100px;
   }
 }
