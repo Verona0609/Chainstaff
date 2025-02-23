@@ -129,7 +129,8 @@ button:hover {
 }
 
 .container {
-  padding: 0 20px;
+  width: 100%;
+  padding: 0 10px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 390px) {
@@ -147,5 +148,6 @@ button:hover {
 @media only screen and (min-width: 1280px) {
   .container {
     padding: 0 100px;
+    max-width: 1200px;
   }
 }
