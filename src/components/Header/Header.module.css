@@ -8,6 +8,7 @@
   height: 50px;
   position: relative;
   padding: 0 20px;
+  box-sizing: border-box; /* Враховує padding у загальній ширині */
   overflow: hidden;
 }
 
@@ -27,7 +28,7 @@
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  margin: auto;
+  margin-left: 140px;
 }
 
 .navbox {
