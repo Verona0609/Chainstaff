@@ -7,15 +7,15 @@ import { Icon } from '../Icon/Icon';
 const Header = () => {
   return (
     <header className={css.box}>
-
+      <div className={css.logobox}>
         <Link>
           <img className={css.logo} src={logo} alt="website logo" />
         </Link>
 
         <h2 className={css.title}>chainstaff</h2>
+      </div>
 
-
-        <Icon className={css.menu} id="icon-Menu" size={28} />
+      <Icon className={css.menu} id="icon-Menu" size={28} />
 
       <ul className={css.navbox}>
         <li className={css.nav}>
