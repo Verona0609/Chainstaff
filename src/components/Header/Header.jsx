@@ -3,8 +3,14 @@ import css from './Header.module.css';
 
 import logo from '../../assets/img/Logo.png';
 import { Icon } from '../Icon/Icon';
+import { useState } from 'react';
 
 const Header = () => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(prev => !prev);
+  };
   return (
     <div className={css.wrapper}>
       <header className={css.box}>
