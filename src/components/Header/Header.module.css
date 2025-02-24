@@ -1,10 +1,13 @@
+.wrapper {
+  width: 100%;
+  background-color: #ffff;
+  box-shadow: 0px 6px 8px rgba(19, 4, 241, 0.1);
+}
+
 .box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffff;
-  box-shadow: 0px 6px 8px rgba(19, 4, 241, 0.1);
-  width: 100%;
   height: 50px;
   position: relative;
   padding: 0 20px;
@@ -13,6 +16,7 @@
 }
 .logobox {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -21,7 +25,7 @@
   margin-right: 8px;
 }
 .title {
-  font-family: var(--font4);
+  font-family: var(--font-family);
   font-weight: var(--font-weight-light);
   font-size: 36px;
 }
@@ -37,6 +41,9 @@
   display: none;
 }
 .navpage {
+  display: none;
+}
+.angle {
   display: none;
 }
 
@@ -68,18 +75,49 @@
   /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
 }
 
-.nav:hover {
-  color: var(--hover);
-}
-
-@media only screen and (min-width: 390px) {
-}
-
 @media only screen and (min-width: 768px) {
+  .box {
+    padding: 0 64px;
+    height: 96px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .menu {
+    display: none;
+  }
+  .navbox {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+  }
+  .angle {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
+  .box {
+    padding: 0 100px;
+    height: 100px;
+    max-width: 1400px;
+    margin: auto;
+  }
   .btn {
+    display: block;
     border: none;
     border-radius: 30px;
     width: 150px;
@@ -91,5 +129,17 @@
     font-size: 20px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
+  }
+  .navpage {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+  }
+  .navpage:hover {
+    color: var(--hover);
   }
 }

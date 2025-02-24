@@ -68,6 +68,10 @@
 }
 
 :root {
+  --hover: #2629cf;
+}
+
+:root {
   --font-family: 'Poppins', sans-serif;
   --second-family: 'Roboto', sans-serif;
   --third-family: 'Montserrat', sans-serif;
@@ -148,6 +152,7 @@ button:hover {
 @media only screen and (min-width: 1280px) {
   .container {
     padding: 0 100px;
-    max-width: 1200px;
+    max-width: 1400px;
+    margin: auto;
   }
 }
