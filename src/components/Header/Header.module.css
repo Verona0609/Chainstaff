@@ -94,8 +94,8 @@
   .navbox {
     display: block;
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     text-align: center;
     color: #000;
   }
@@ -140,8 +140,8 @@
   .navpage {
     display: block;
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     text-align: center;
     color: #000;
   }
