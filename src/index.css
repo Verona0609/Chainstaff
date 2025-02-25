@@ -115,36 +115,23 @@ img {
   height: auto;
   margin: 0;
 }
-
-/* button {
-  background: linear-gradient(90deg, #58dad7, #6769bc); */
-/* background: linear-gradient(135deg, #58dad7 0%, #6769bc 100%); */
-/*
-  width: 200px;
-  height: 60px;
-  border: none;
-  border-radius: 40px;
-  color: #fff;
+button {
   cursor: pointer;
-}  */
-
-button:hover {
+  transition: transform 0.3s ease;
+}
+.button:hover {
   transform: scale(1.1);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html,
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
 .container {
   width: 100%;
-  max-width: 1400px;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;

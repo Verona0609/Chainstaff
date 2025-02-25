@@ -5,10 +5,17 @@ const Hero = () => {
     <div className="container">
       <div className={css.content}>
         <h1 className={css.title}>
-          Supecharge your <span>hiring strategy</span> through personal networks
+          Supecharge your <span className={css.highlight}>hiring strategy</span>{' '}
+          through personal networks
         </h1>
-        <p className={css.text}>Streamline your recruitment with chainstaff's referral-based hiring solutions. Discover top talent faster and reduce costs effortlessly.</p>
-        <button className={css.btn}>Get started</button>
+        <p className={css.text}>
+          Streamline your recruitment with chainstaff's referral-based hiring
+          solutions. Discover top talent faster and reduce costs effortlessly.
+        </p>
+        <div className={css.buttonBox}>
+          <button className={css.btnGet}>Get started</button>
+          <button className={css.btnTalk}>Talk to us</button>
+        </div>
       </div>
     </div>
   );
