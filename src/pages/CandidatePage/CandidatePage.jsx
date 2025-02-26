@@ -1,14 +1,13 @@
-import Header from "../../components/Header/Header"
-import Hero from "../../components/Hero/Hero"
-
+import Header from '../../components/Header/Header';
+import Hero from '../../components/Hero/Hero';
 
 const CandidatePage = () => {
   return (
     <div>
-      <Header/>
-      <Hero/>
+      <Header />
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default CandidatePage
+export default CandidatePage;
