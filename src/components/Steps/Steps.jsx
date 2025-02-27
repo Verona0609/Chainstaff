@@ -10,8 +10,8 @@ const Steps = () => {
       <p className={css.text}>Three easy steps to unlock your superpower.</p>
       <div className={css.stepbox}>
         <img src="" alt="" />
-        <p>Post job ads for free:</p>
-        <p>
+        <p className={css.step}>Post job ads for free:</p>
+        <p className={css.info}>
           Companies post job ads for free and set a bounty for successful
           recommendations.
         </p>

@@ -5,6 +5,7 @@
   line-height: 125%;
   color: black;
   padding-top: 50px;
+  margin-bottom: 10px;
 }
 
 .hire {
@@ -15,4 +16,37 @@
   font-weight: 400;
   font-size: 24px;
   color: #000;
+  margin-bottom: 42px;
+}
+
+.stepbox {
+  border-radius: 20px;
+  width: 346px;
+  height: 508px;
+  background: linear-gradient(270deg, #6769bc 0%, #60a0ca 100%);
+  padding: 20px;
+  color: #fff;
+}
+.step {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 161%;
+  margin-top: 242px;
+  margin-bottom: 10px;
+}
+.info {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+    line-height: 94%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }
