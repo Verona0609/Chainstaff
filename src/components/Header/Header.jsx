@@ -33,12 +33,14 @@ const Header = () => {
             <Icon className={css.angle} id="icon-angle-left" />
           </li>
           <li className={css.nav}>
-            <Link to="/chainstafers">
-              <span> Chainstafer</span>
+            <Link className={css.hidden} to="/chainstafers">
+              Chainstafer
             </Link>
           </li>
           <li className={css.nav}>
-            <Link to="/candidates">Candidate</Link>
+            <Link className={css.hidden} to="/candidates">
+              Candidate
+            </Link>
           </li>
         </ul>
         <nav className={css.navpage}>

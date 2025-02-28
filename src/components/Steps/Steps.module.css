@@ -1,15 +1,15 @@
 .title {
   font-family: var(--font-family);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 36px;
   line-height: 125%;
   color: black;
-  padding-top: 50px;
   margin-bottom: 10px;
 }
 
 .hire {
   color: #6769bc;
+  font-weight: 600;
 }
 
 .text {
@@ -18,11 +18,13 @@
   color: #000;
   margin-bottom: 42px;
 }
-
+.imgStep {
+  margin-bottom: 25px;
+}
 .stepbox {
   border-radius: 20px;
   width: 346px;
-  height: 508px;
+  height: 460px;
   background: linear-gradient(270deg, #6769bc 0%, #60a0ca 100%);
   padding: 20px;
   color: #fff;
@@ -30,21 +32,44 @@
 .step {
   font-family: var(--second-family);
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 161%;
-  margin-top: 242px;
   margin-bottom: 10px;
 }
 .info {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 125%;
+  margin-bottom: 50px;
+}
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.iconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 @media only screen and (min-width: 768px) {
   .title {
     font-size: 48px;
     line-height: 94%;
+  }
+  .stepbox {
+    border-radius: 30px;
+    width: 450px;
+    height: 494px;
+    padding: 40px;
+  }
+  .stepWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

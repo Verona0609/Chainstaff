@@ -91,6 +91,9 @@
   .menu {
     display: none;
   }
+  .hidden {
+    display: none;
+  }
   .navbox {
     display: block;
     font-family: var(--font-family);
@@ -136,6 +139,9 @@
     text-align: center;
     color: #fff;
     cursor: pointer;
+  }
+  .btn {
+    transform: scale(1.1);
   }
   .navpage {
     display: block;
