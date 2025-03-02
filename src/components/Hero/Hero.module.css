@@ -1,13 +1,14 @@
 .title {
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 38px;
   line-height: 100%;
   color: #000;
   margin-bottom: 40px;
 }
 .highlight {
-  color: #6769bc;
+  /*  color: #6769bc; */
+  font-weight: 700;
 }
 .text {
   font-family: var(--second-family);
@@ -36,6 +37,7 @@
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
   align-self: flex-start;
 }
+
 .btnTalk {
   display: none;
 }
@@ -76,8 +78,16 @@
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    color: #4e65af;
+    color: #111111;
     transition: transform 0.3s ease;
+  }
+  .talk {
+    width: 170px;
+    height: 70px;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
   }
 
   .btnTalk::before {
@@ -88,9 +98,11 @@
     right: -2px;
     bottom: -2px;
     border-radius: 40px;
-    background: linear-gradient(90deg, #58dad7 0%, #6769bc 100%);
+    /*  background: linear-gradient(90deg, #58dad7 0%, #6769bc 100%); */
+    background: #6769bc;
     z-index: -1;
   }
+
   .btnTalk:hover {
     transform: scale(1.1);
     background: #fff;

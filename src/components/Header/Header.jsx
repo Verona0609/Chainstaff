@@ -30,7 +30,7 @@ const Header = () => {
               <span>I'm a Company</span>{' '}
             </Link>
 
-            <Icon className={css.angle} id="icon-angle-left" />
+            <Icon className={css.down} id="icon-left" size={18} />
           </li>
           <li className={css.nav}>
             <Link className={css.hidden} to="/chainstafers">
