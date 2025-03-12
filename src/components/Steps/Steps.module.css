@@ -49,6 +49,13 @@
   stroke: currentColor;
   fill: currentColor;
 }
+.iconleft {
+  transform: rotate(90deg);
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
 .iconBox {
   display: flex;
   justify-content: center;

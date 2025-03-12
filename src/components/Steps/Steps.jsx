@@ -18,7 +18,7 @@ const Steps = () => {
             recommendations.
           </p>
           <div className={css.iconBox}>
-            <Icon className={css.icon} id="icon-left" size={28} />
+            <Icon className={css.iconleft} id="icon-left" size={28} />
             <Icon className={css.icon} id="icon-right" size={28} />
           </div>
         </div>

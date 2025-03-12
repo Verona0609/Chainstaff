@@ -30,7 +30,7 @@ const Header = () => {
               <span>I'm a Company</span>{' '}
             </Link>
 
-            <Icon className={css.down} id="icon-left" size={18} />
+            <Icon className={css.down} id="icon-down" size={18} />
           </li>
           <li className={css.nav}>
             <Link className={css.hidden} to="/chainstafers">
